@@ -31,6 +31,8 @@ confirmPass = input("Confirma tu contraseña: ")
 case 2:
 print("Nombre:", name, "Edad:", age, "Fecha de nacimiento:", birthday, "Correo electrónico:", email,
 "Contraseña:", password)
+or i in range(len(name)):
+                print("Id:-", i," Con el nombre: ", name[i], " con el apellido: ", lastName[i], " Con la edad de: ", age[i])
 
 case 3:
 name = ""
